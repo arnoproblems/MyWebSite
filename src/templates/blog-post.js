@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from "gatsby";
+import {Link, graphql} from "gatsby";
 import Layout from '../components/layout';
 
 export default function Template({data}) {
@@ -15,7 +15,7 @@ export default function Template({data}) {
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
         </Layout>
-        
+
     )
 }
 
